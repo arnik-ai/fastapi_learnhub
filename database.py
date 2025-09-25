@@ -25,3 +25,4 @@ def get_collection(name: str):
     if db is None:
         raise RuntimeError("Database not connected yet!")
     return db[name]
+
