@@ -1,0 +1,38 @@
+# -----------------
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------
+# Virtual environments (Anaconda, venv, etc.)
+venv/
+.venv/
+.env/
+
+# -----------------
+# IDE settings
+.vscode/
+.idea/
+
+# -----------------
+# MongoDB (Local data - Compass uses this)
+data/
+data/db/
+dump/
+
+# -----------------
+# Logs
+*.log
+
+# -----------------
+# System files
+.DS_Store
+Thumbs.db
+
+# -----------------
+# dotenv / secrets
+.env.local
+.env.dev
+.env.prod
